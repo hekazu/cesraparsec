@@ -34,7 +34,7 @@ license-file:       LICENSE
 author:             Helsinki Haskell Users Group
 
 -- An email address to which users can send suggestions, bug reports, and patches.
-maintainer:         noreply@example.org
+-- maintainer:
 
 -- A copyright notice.
 -- copyright:
