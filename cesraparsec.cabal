@@ -64,7 +64,10 @@ library
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    base ^>=4.20.2.0
+    build-depends:
+        base ^>=4.20.2.0,
+        parsec ^>=3.1.18.0,
+        falsify ^>=0.3.0
 
     -- Directories containing source files.
     hs-source-dirs:   lib
@@ -97,4 +100,6 @@ test-suite cesraparsec-test
     -- Test dependencies.
     build-depends:
         base ^>=4.20.2.0,
-        cesraparsec
+        cesraparsec,
+        parsec ^>=3.1.18.0,
+        falsify ^>=0.3.0
