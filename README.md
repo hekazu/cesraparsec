@@ -5,6 +5,9 @@ Built by Helsinki Haskell Users Group for naught but love of the art.
 
 ## Development
 Standard `cabal` fare, nothing unusual.
+1. Clone repository
+2. `cabal update`
+3. Profit
 
 For Nix users, please find the included `shell.nix` and the optional direnv
 template file for convenience.
